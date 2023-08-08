@@ -35,14 +35,12 @@ body {
   line-height: 2;
 }
 
-.container {
-  width: min(90%, 120rem);
-  margin: 0 auto;
-}
-
 @media (min-width: 768px) {
   .container {
+    height: 100vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 }
@@ -87,7 +85,7 @@ img {
 /* Product Card Component */
 .card {
   background-color: var(--white);
-  margin: 2rem 0;
+  margin: 2rem;
   border-radius: 1.5rem;
 }
 
@@ -122,7 +120,6 @@ img {
 @media (min-width: 1140px) {
   .card {
     max-width: 50%;
-    margin: 5rem;
   }
 }
 
@@ -130,15 +127,15 @@ img {
   padding: 2.5rem;
 }
 
-@media (min-width: 768px) {
-  .card__content {
-    padding: 4rem;
-  }
-}
-
 @media (min-width: 1140px) {
   .card__content {
     padding: 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card__content {
+    padding: 5rem;
   }
 }
 
@@ -186,6 +183,7 @@ img {
 .attribution {
   font-size: 1.1rem;
   text-align: center;
+  padding: 0 1rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
