@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-product-card-component-using-html-and-css-grid-and-flexbox-bJq3rTW3a2)
-- Live Site URL: [Netlify](https://frontendmentor-product-card-geovanni.netlify.app/)
+- Live Site URL: [Netlify](https://product-card-component-gfz.netlify.app/)
 
 ## My process
 
@@ -64,4 +64,4 @@ I want to continue learning the basics of HTML and CSS until I fully master all 
 ## Author
 
 - Frontend Mentor - [@Geovanex24](https://www.frontendmentor.io/profile/Geovanex24)
-- Twitter - [@@geovanex24](https://www.twitter.com/geovanex24)
+- Twitter - [@geovanex24](https://www.twitter.com/geovanex24)
